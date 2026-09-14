@@ -1,0 +1,34 @@
+# ===== Unreal Engine (Blueprint project) =====
+# Regenerable / machine-local folders — never commit these.
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+Plugins/**/Binaries/
+Plugins/**/Intermediate/
+
+# Visual Studio / Rider / editor files (safe to regenerate)
+.vs/
+.idea/
+*.sln
+*.suo
+*.opensdf
+*.opendb
+*.sdf
+*.VC.db
+*.VC.opendb
+*.xcodeproj
+*.xcworkspace
+
+# OS cruft
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# ===== What we DO keep =====
+#   Config/        (project + editor settings)
+#   Content/       (your .uasset / .umap game data — tracked via Git LFS)
+#   Lingering_Wars.uproject
+#   Source/        (if you ever add C++)
+#   Plugins/*/     (plugin source & content, minus their Binaries/Intermediate above)
